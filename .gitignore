@@ -1,0 +1,9 @@
+# Folder hasil build / kompilasi Java
+/out/
+/target/
+*.class
+
+# File konfigurasi IDE
+.vscode/
+.idea/
+*.iml
