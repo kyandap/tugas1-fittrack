@@ -1,8 +1,8 @@
 # Tugas 1 Praktikum PBO - Sistem Keanggotaan Gym FitTrack
 
 ## 👤 Identitas Praktikan
-* **Nama:** [Isi Nama Lengkap Kamu]
-* **NPM:** [Isi NPM Kamu]
+* **Nama:** Kyandaru Annisa Putri
+* **NPM:** 250810701100059
 * **Kelas Praktikum:** PBO A
 
 ---
