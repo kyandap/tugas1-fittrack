@@ -66,5 +66,19 @@ public class Member {
     public String getJenisPaket() {
         return jenisPaket;
     }
+
+    // Method untuk menampilkan informasi member
+    public void tampilkanInfo() {
+        System.out.println("Nama         : " + nama);
+        System.out.println("No Telepon   : " + noTelepon);
+        System.out.println("Tanggal      : " + tanggalDaftar);
+        System.out.println("Jenis Paket  : " + jenisPaket);
+        System.out.println("-----------------------------------");
+    }
+
+    @Override
+    public String toString() {
+        return "Member{nama='" + nama + "', noTelepon='" + noTelepon + "', jenisPaket='" + jenisPaket + "'}";
+    }
 }
 
