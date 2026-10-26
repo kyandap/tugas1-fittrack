@@ -80,5 +80,10 @@ public class Member {
     public String toString() {
         return "Member{nama='" + nama + "', noTelepon='" + noTelepon + "', jenisPaket='" + jenisPaket + "'}";
     }
+
+    // Constructor Overloading (Paket otomatis 'Basic')
+    public Member(String nama, String noTelepon, String tanggalDaftar) {
+        this(nama, noTelepon, tanggalDaftar, PAKET_DEFAULT);
+    }
 }
 
