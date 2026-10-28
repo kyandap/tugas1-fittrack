@@ -85,5 +85,11 @@ public class Member {
     public Member(String nama, String noTelepon, String tanggalDaftar) {
         this(nama, noTelepon, tanggalDaftar, PAKET_DEFAULT);
     }
+
+    // Method simulasi upgrade paket
+    public void upgradePaket(String paketBaru) {
+        setJenisPaket(paketBaru);
+        System.out.println("Paket " + nama + " berhasil diubah menjadi: " + this.jenisPaket);
+    }
 }
 
