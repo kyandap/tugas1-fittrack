@@ -2,21 +2,18 @@
 
 **FitTrack** merupakan aplikasi manajemen member fitness sederhana berbasis Java yang dikembangkan untuk memenuhi tugas 1 Praktikum Pemrograman Berorientasi Objek (PBO).
 
-## 👤 Identitas Mahasiswa
-
+## Identitas Mahasiswa
 - **Nama Lengkap:** Kyandaru Annisa Putri
 - **NPM:** 250810701100059
 - **Kelas Praktikum:** Praktikum Pemograman Berorientasi Objek (PBO) A
 
----
-
-## 📖 Deskripsi Proyek
+## Deskripsi Proyek
 
 FitTrack adalah aplikasi berbasis konsol yang dirancang untuk mempermudah proses pencatatan dan pengelolaan data member fitness secara terstruktur.
 
 Program ini memungkinkan pengguna untuk mengelola informasi member, melakukan validasi data secara otomatis, serta mengubah jenis paket langganan. Pengembangan aplikasi ini juga menjadi penerapan konsep dasar *Object-Oriented Programming* (OOP) menggunakan bahasa Java.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - **Registrasi Member:** Membuat data member baru yang mencakup nama, nomor telepon, tanggal pendaftaran, dan jenis paket.
 - **Validasi Data:** Memastikan data yang dimasukkan sesuai dengan ketentuan, seperti nama tidak boleh kosong dan nomor telepon harus valid.
@@ -24,7 +21,7 @@ Program ini memungkinkan pengguna untuk mengelola informasi member, melakukan va
 - **Constructor Overloading:** Mendukung pembuatan objek dengan parameter lengkap maupun parameter minimal.
 - **Upgrade Paket:** Memungkinkan perubahan jenis paket langganan member melalui method `upgradePaket()`.
 
-## 🧩 Konsep OOP yang Diterapkan
+## Konsep OOP yang Diterapkan
 
 | Konsep | Lokasi Penerapan | Penjelasan |
 |---|---|---|
@@ -33,7 +30,7 @@ Program ini memungkinkan pengguna untuk mengelola informasi member, melakukan va
 | **Constructor Overloading** | `Member.java` | Menyediakan beberapa constructor agar objek dapat dibuat dengan parameter yang berbeda. |
 | **Separation of Concerns** | `Member.java` dan `TesFitTrack.java` | Memisahkan pengelolaan data member dengan class pengujian agar kode lebih terstruktur. |
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 ```text
 FitTrack/
@@ -49,7 +46,7 @@ FitTrack/
 └── README.md               # Dokumentasi proyek
 ```
 
-## ⚙️ Prasyarat
+## Prasyarat
 
 Sebelum menjalankan program, pastikan perangkat telah memiliki:
 
@@ -57,7 +54,7 @@ Sebelum menjalankan program, pastikan perangkat telah memiliki:
 - **IDE (Opsional):** IntelliJ IDEA atau Visual Studio Code.
 - **Terminal:** Command Prompt, PowerShell, atau terminal lainnya.
 
-## 🚀 Cara Menjalankan Program
+## Cara Menjalankan Program
 
 ### 1. Melalui Command Line (Terminal / CMD)
 
@@ -86,19 +83,19 @@ java TesFitTrack
 3. Buka file `TesFitTrack.java`.
 4. Klik ikon **Run (▶)** pada method `main()` untuk menjalankan program.
 
-## 🖥️ Contoh Output Program
+## Contoh Output Program
 
 Berikut merupakan dokumentasi hasil eksekusi aplikasi FitTrack melalui terminal, mulai dari pengujian data member normal, validasi input, hingga simulasi upgrade paket.
 
 ![Output Program FitTrack](images/output.png)
 
-## 🛡️ Ketentuan Nilai Default
+## Ketentuan Nilai Default
 
 Apabila jenis paket tidak diisi atau tidak memenuhi ketentuan validasi saat pembuatan objek, sistem akan secara otomatis menetapkan **`Basic`** sebagai nilai default.
 
 Sistem juga menampilkan pesan peringatan melalui konsol untuk memberikan informasi mengenai perubahan tersebut.
 
-## 🔍 Batasan dan Pengembangan Selanjutnya
+## Batasan dan Pengembangan Selanjutnya
 
 **Batasan Saat Ini:**
 - Penyimpanan data masih bersifat sementara (*in-memory*).
@@ -110,6 +107,3 @@ Sistem juga menampilkan pesan peringatan melalui konsol untuk memberikan informa
 - Mengembangkan antarmuka pengguna berbasis GUI.
 - Menambahkan fitur pengelolaan dan pencarian data member.
 
----
-
-<sub>Dikembangkan untuk memenuhi Tugas Praktikum Pemrograman Berorientasi Objek (PBO).</sub>
